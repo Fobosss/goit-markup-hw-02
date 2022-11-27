@@ -5,100 +5,138 @@ sans-serif;
 font-family: 'Roboto',
 sans-serif; */
 :root {
-    /* iris */--primary-brand: #4d5ae5;
-    /* navy blue  */--dark: #2e2f42;
-    /* green */--success: #31d0aa;
-    /* slate  */--text: #434455;
-    /* ligth slate  */--subtle-text: #8e8f99;
-    /* cornflower  */--accent: #e7e9fc;
-    /* cloud  */--light: #f4f4fd;
-    
-}
-body {
-font-family: 'Roboto', sans-serif;
-color: var(--text);
+    /* iris */
+    --primary-brand: #4d5ae5;
+    /* navy blue  */
+    --dark: #2e2f42;
+    /* green */
+    --success: #31d0aa;
+    /* slate  */
+    --text: #434455;
+    /* ligth slate  */
+    --subtle-text: #8e8f99;
+    /* cornflower  */
+    --accent: #e7e9fc;
+    /* cloud  */
+    --light: #f4f4fd;
 
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+
+}
+
 .logo {
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.2;
-        text-decoration: none;
-        color: var(--dark);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--dark);
 }
+
 .foot-logo {
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.2;
-        text-decoration: none;
-        color: var(--light)
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--light)
 }
 
 .low-logo {
-   color: var(--primary-brand);
+    color: var(--primary-brand);
 }
-.nav-links { 
+
+.nav-links {
     text-decoration: none;
     font-family: 'Roboto';
-        
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--dark);
-        
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark);
+
 }
-.nav-links:hover,:focus {
+
+.nav-links:hover,
+:focus {
     color: var(--primary-brand);
-    
+
 }
+
 .adress {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        text-decoration: none;
-        color: var(--text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--text);
 }
-.adress:hover, :focus {
+
+.adress:hover,
+:focus {
     color: var(--primary-brand);
 }
+
 li {
     list-style-type: none;
 }
+
 .button {
     background-color: var(--light);
     color: var(--primary-brand);
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
     cursor: pointer;
-        
-      }
 
-.button:hover, :focus {
-background-color: var(--primary-brand);
-color: #ffffff
 }
+
+.button:hover,
+:focus {
+    background-color: var(--primary-brand);
+    color: #ffffff
+}
+
 .card-h {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 1.2;
-        /* identical to box height, or 120% */
-    
-        letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.02em;
 }
+
 .card-p {
     font-family: 'Roboto';
-        
-        font-size: 16px;
-        line-height: 1.5;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main-button {
+    background-color: var(--primary-brand);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.main-button:hover,
+:focus {
+    background-color: var(--primary-brand);
+    color: #ffffff
 }
